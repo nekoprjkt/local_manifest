@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- github -->
+ <remote name="nekogithub" fetch="https://github.com/nekoprjkt" />
+
+ <!-- nekoprjkt -->
+ <project path="device/xiaomi/vince"           name="device-xiaomi-vince"            remote="nekogithub" revision="14" clone-depth="1" />
+ <project path="vendor/xiaomi/vince"           name="vendor-xiaomi-vince"            remote="nekogithub" revision="14" clone-depth="1" />
+ <project path="kernel/xiaomi/vince"           name="kernel-xiaomi-vince"            remote="nekogithub" revision="14" clone-depth="1" />
+</manifest>
